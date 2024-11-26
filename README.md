@@ -74,7 +74,7 @@ Triggered on tachometer pulses:
 Continuously prints real-time data for debugging.
 
 
-## Hardware Configuration
+### Hardware Configuration
 - **Analog Pin (1)**: Reads differential pressure sensor.
 - **Tachometer Pin (15)**: Measures fan RPM.
 - **PWM Pin (16)**: Controls fan speed.
@@ -92,3 +92,13 @@ Continuously prints real-time data for debugging.
 2. Upload the code to an Arduino or ESP32 board.
 3. Adjust PID constants (`K_p`, `K_i`, `K_d`) for your wind tunnel.
 4. Monitor serial output for real-time airspeed and PID performance.
+
+##Images
+
+Here are photos of the wind tunnel setup and key components:
+   Body:
+      ![body](https://github.com/FuscaoPreto/Wind_Tunel_PID/blob/main/photos/body.jpg)
+   Body (Alternate View):
+      ![body vertical](https://github.com/FuscaoPreto/Wind_Tunel_PID/blob/main/photos/body_2.jpg)
+   Mouth (Pitot Tube View):
+      ![mouth](https://github.com/FuscaoPreto/Wind_Tunel_PID/blob/main/photos/mouth.jpg)
